@@ -1,0 +1,20 @@
+[General]
+additionalSettingsFilePath=<APPLAUNCHER_SETTINGS_DIR>/SlicerLauncherSettings.ini
+additionalSettingsExcludeGroups=General,Application,ExtraApplicationToLaunch
+
+launcherNoSplashScreen=false
+launcherSplashImagePath=<APPLAUNCHER_DIR>/bin/Slicer-SplashScreen.png
+launcherSplashScreenHideDelayMs=3000
+additionalLauncherHelpShortArgument=
+additionalLauncherHelpLongArgument=
+additionalLauncherNoSplashArguments=
+
+[Application]
+path=<APPLAUNCHER_DIR>/bin/Fusion HIFUApp-real.exe
+arguments=--no-splash --python-code "slicer.util.selectModule('FusionHIFU')"
+name=FusionHIFU
+revision=
+organizationDomain=
+organizationName=
+
+[ExtraApplicationToLaunch]
